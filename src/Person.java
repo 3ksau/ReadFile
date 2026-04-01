@@ -11,9 +11,17 @@ public class Person implements Serializable {
         this.cityId = cityId;
     }
 
-    public int getId() {return id;}
-    public String getName() {return name;}
-    public int getCityId() {return cityId;}
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCityId() {
+        return cityId;
+    }
 
     @Override
     public String toString() {

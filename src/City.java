@@ -11,9 +11,17 @@ public class City implements Serializable {
         this.postalCode = postalCode;
     }
 
-    public int getId() {return id;}
-    public String getName() {return name;}
-    public String getPostalCode() {return postalCode;}
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPostalCode() {
+        return postalCode;
+    }
 
     @Override
     public String toString() {
